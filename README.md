@@ -1,6 +1,6 @@
 # LaBoutiqueFrancaise
 
-Les utilisateurs pourront:
+* Les utilisateurs pourront:
 
  s'inscrire, se connecter, filtrer les produits, les mettre dans le panier, accéder au tunnel d'achat, payer et recevoir les emails de confirmation.
 
