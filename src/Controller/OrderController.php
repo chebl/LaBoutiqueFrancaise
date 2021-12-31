@@ -70,7 +70,7 @@ class OrderController extends AbstractController
 
             //Enregister ma commande Order()
             $order = new Order();
-            $reference = date('Ymd') . '-' . uniqid();
+            $reference = date('dmY') . '-' . uniqid();
             $order->setReference($reference);
             $order->setUser($this->getUser());
             $order->setCreatedAt($date);
