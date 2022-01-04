@@ -20,4 +20,16 @@
     </div>
 
 </div>
+<hr>
+<h3>Nos meilleurs ventes</h3>
+<p>Découvrez les articles les plus vendus.</p>
+<div class="row">
+    {% for product in products %}
+    <div class="col-md-3">
+
+        {% include "product/single_product.html.twig" %}
+
+    </div><!-- /.col-lg-4 -->
+    {% endfor %}
+</div><!-- /.row -->
 {% endblock %}
