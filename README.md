@@ -8,8 +8,8 @@ Commandes Symfony:
 6-Lancement du Serveur du BDD: docker-compose up -d
 
 
-
-
+//SearchPart
+https://github.com/nadhemBelHadj/Symfony4_TP7/blob/master/src/Controller/IndexController.php
 * Les utilisateurs pourront:
 
  s'inscrire, se connecter, filtrer les produits, les mettre dans le panier, accéder au tunnel d'achat, payer et recevoir les emails de confirmation.
